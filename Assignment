@@ -1,0 +1,47 @@
+class Car{
+   static int count = 3;
+  String brand;
+  String model;
+  int year;
+  int miles = 0;
+  int age;
+
+  Car(this.brand,this.model,this.year, this.miles,this.age);
+
+
+
+
+
+
+  }
+
+
+
+
+
+void main() {
+  Car Car1 = Car('Toyota','Camry',2020,10000,3);
+  print(Car1.brand);
+  print(Car1.model);
+  print(Car1.year);
+  print(Car1.miles);
+  print(Car1.age);
+  print('');
+
+
+  Car Car2 = Car('Honda','Civic',2018,8000,5);
+  print(Car2.brand);
+  print(Car2.model);
+  print(Car2.year);
+  print(Car2.miles);
+  print(Car2.age);
+  print('');
+  Car Car3 = Car('Ford','F-150', 2015,15000,8);
+  print(Car3.brand);
+  print(Car3.model);
+  print(Car3.year);
+  print(Car3.miles);
+  print(Car3.age);
+  print(Car.count);
+
+}
